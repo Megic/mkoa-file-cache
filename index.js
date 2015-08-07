@@ -65,6 +65,7 @@ function Cache(options) {
         }
         // If a valid cache exists (read)
         else {
+            yield next;
             // Let upstream middleware decide if we shouldn't read from cache
             if (this.caching === false) {
                 yield next;

@@ -1,5 +1,5 @@
-# Koa-File-Cache (middleware)
-
+# MKoa-File-Cache (middleware)
+居于Koa-File-Cache 用于Mkoa框架作了部分调整
 A simple way to cache expensive requests (e.g. remote, nested DB, etc) to disk in KoaJS.
 
 
@@ -73,7 +73,7 @@ Setting this upstream will prevent both reading from and writing to the cache. D
 ## Cache([options])
 
 ```js
-var Cache = require('koa-file-cache');
+var Cache = require('mkoa-file-cache');
 app.use(Cache(options))
 ```
 
@@ -101,7 +101,7 @@ app.use(Cache(options))
 # Installation
 
 ```
-$ npm install koa-file-cache
+$ npm install mkoa-file-cache
 ```
 
 # Running tests
